@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calci.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>main</title>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <center>
+    <div class="mainpage">
+        <div class="textField">
+            
+            <input type="text" id="first" class="first" readonly/><br>
+            <input type="text" name="sign" id="sign" readonly /> 
+            <input type="text" id="second" class="second" readonly/>
+        </div>
+        <div class="numbers">
+            <button onclick="disp1()"></button>
+            <button onclick="disp2()">C</button>
+            <button onclick="clear1()">&lt;</button>
+            <button onclick="allClear()">AC</button></br></br>
+            <button  onclick="display('7')">7</button>
+            <button  onclick="display('8')">8</button>
+            <button  onclick="display('9')">9</button>
+            <button  onclick="addSign('+')">+</button></br></br>
+            <button  onclick="display('4')">4</button>
+            <button  onclick="display('5')">5</button>
+            <button  onclick="display('6')">6</button>
+            <button  onclick="addSign('-')">-</button></br></br>
+            <button  onclick="display('1')">1</button>
+            <button  onclick="display('2')">2</button>
+            <button  onclick="display('3')">3</button>
+            <button  onclick="addSign('*')">*</button></br></br>
+            <button  onclick="display('0')">0</button>
+            <button  onclick="display('.')">.</button>
+            <button  onclick="addSign('/')">/</button>
+            <button  onclick="solve()">=</button>
+        </div>
+    </div>
+    </center>
+    <script src="calci.js"></script>
+</body>
+</html>
